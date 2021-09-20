@@ -1,0 +1,143 @@
+.row {
+    margin-top: 1%;
+
+    // Start Player
+    .col-2 {
+        .player {
+            ul {
+                li {
+                    list-style: none;
+                    text-align: center;
+                }
+
+                #tittle {
+                    p {
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 36px;
+                        font-weight: 700;
+                        color: black;
+                    }
+                }
+
+                #player-batu {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 112px;
+                        height: 80.5px;
+                    }
+                }
+
+                #player-kertas {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 100.6px;
+                        height: 131.25px;
+                    }
+                }
+
+                #player-gunting {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 117.25px;
+                        height: 140px;
+                    }
+                }
+            }
+        }
+    }
+    // End Player
+
+    // Start Vs
+    .col-3 {
+        #wrapper {
+            text-align: center;
+            width: 70%;
+            margin-left: 19%;
+
+            .atas {
+                height: 50%;
+
+                #versus {
+                    align-items: center;
+                    h1 {
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 126px;
+                        font-weight: 700;
+                        color: #BD0000;
+                        margin-top: 74%;
+                    }
+                }
+            }
+
+            .bawah {
+                height: 50%;
+
+                #reset {
+                    margin-top: 45%;
+                    :hover {
+                        transform: rotate(-25deg);
+                    }
+                }
+            }
+            
+        }
+    }
+    // End VS
+
+    .col-2 {
+        .computer {
+            ul {
+                li {
+                    list-style: none;
+                    text-align: center;
+                }
+    
+                #tittle {
+                    p {
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 36px;
+                        font-weight: 700;
+                        color: black;
+                    }
+                }
+    
+                #computer-batu {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 112px;
+                        height: 80.5px;
+                    }
+                }
+    
+                #computer-kertas {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 100.6px;
+                        height: 131.25px;
+                    }
+                }
+    
+                #computer-gunting {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    img {
+                        width: 117.25px;
+                        height: 140px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
